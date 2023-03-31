@@ -1,9 +1,11 @@
 import React from 'react';
 
 const SingleVLog = (props) => {
-    console.log(props.vlog)
+   
+    
 const {
   author, authorimg,description,publishedAt,readingtime,urlToImage,title,} = props.vlog;
+  const handleAddToVLog = props.handleAddToVLog;
     return (
       <div className="m-5 mb-12">
         <img src={urlToImage} className=" h-3/6" alt="" />
@@ -19,7 +21,7 @@ const {
           </div>
           <div className="flex gap-2">
             <p>{readingtime} min read</p>
-            <span>
+            <span onClick={()=> handleAddToVLog(props.vlog)}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -51,10 +53,10 @@ const {
             </span>
           </div>
         </div>
-        <p className='text-4xl font-semibold mt-2'>{title}</p>
-        <div className='m-2 flex gap-2'>
-            <p> #trending</p>
-            <p>#technology</p>
+        <p className="text-4xl font-semibold mt-2">{title}</p>
+        <div className="m-2 flex gap-2">
+          <p> #trending</p>
+          <p>#technology</p>
         </div>
       </div>
     );
