@@ -1,0 +1,68 @@
+{
+"status": "ok",
+"totalResults": 4,
+"articles": [
+{
+"source": {
+"id":" 01",
+"name": "Biztoc.com"
+},
+"author": "Nikolas Lanum",
+"authorimg":"https://postimg.cc/5YKJhvDC",
+"readingtime":"5 ",
+"title": "‘Please Mine More Nickel’: Elon Musk Urges Mining Companies to Boost Production",
+"description": "Back in 2020, Tesla CEO Elon Musk made a plea for miners to invest in increased production of nickel, a key component – and an expensive one – in the batteries that power EVs. He even promised companies a “giant contract for a long period of time,” should the…",
+"url": "https://biztoc.com/x/a9e0424682c3dd40",
+"urlToImage": "https://c.biztoc.com/p/a9e0424682c3dd40/og.webp",
+"publishedAt": "2023-03-31T02:04:05Z",
+"content": "Back in 2020, Tesla CEO Elon Musk made a plea for miners to invest in increased production of nickel, a key component and an expensive one in the batteries that power EVs. He even promised companies … [+294 chars]"
+},
+{
+"source": {
+"id": "02",
+"name": "The Star Online"
+},
+"author": "Hakyung Kim",
+"authorimg":"https://postimg.cc/RN9dk8Qw",
+"title": "Elon Musk’s AI letter is a ‘hot mess’ of hype, say critics",
+"description": "A letter signed by Elon Musk and hundreds of experts calling for a pause in the development of artificial intelligence is a \"hot mess\" of \"AI hype\" that even misrepresents an academic paper, critics say. Read full story",
+"readingtime":"6",
+"url": "https://www.thestar.com.my/tech/tech-news/2023/03/31/elon-musks-ai-letter-is-a-hot-mess-of-hype-say-critics",
+"urlToImage": "https://apicms.thestar.com.my/uploads/images/2023/03/31/2002372.jpg",
+"publishedAt": "2023-03-31T02:00:00Z",
+"content": "A letter signed by Elon Musk and hundreds of experts calling for a pause in the development of artificial intelligence is a \"hot mess\" of \"AI hype\" that even misrepresents an academic paper, critics … [+2472 chars]"
+},
+{
+"source": {
+"id": "03",
+"name": "Biztoc.com"
+},
+"author": "Alexander Gladstone",
+"authorimg":"https://postimg.cc/w1n0GBWj",
+"title": "Tesla in talks with China’s CATL on building EV battery plant in the US",
+"description": "Tesla has discussed plans to build a battery plant in the US involving Contemporary Amperex Technology with the White House in recent day, sources say. #tesla",
+"readingtime":"3",
+"url": "https://biztoc.com/x/beaa3932339a673b",
+"urlToImage": "https://c.biztoc.com/p/beaa3932339a673b/og.webp",
+"publishedAt": "2023-03-31T01:38:10Z",
+"content": "Tesla has discussed plans to build a battery plant in the US involving Contemporary Amperex Technology with the White House in recent day, sources say. \r\n#tesla\r\n This story appeared on scmp.com, 202… [+7 chars]"
+},
+{
+"source": {
+"id": "04",
+"name": "Biztoc.com"
+},
+"author": "Sarah Ravani",
+"authorimg":"https://postimg.cc/PCHqzbHX",
+"title": "Futures: Nasdaq Tops 12,000; These 4 Stocks Flash Buy Signals",
+"description": "Dow Jones futures rose slightly overnight, along with S&P 500 futures and Nasdaq futures, with attention turning to the Federal Reserve's favorite inflation report, the PCE price index. Aehr Test Systems (AEHR) headlined earnings after the close. The IRS on F…",
+"readingtime":"2 ",
+"url": "https://biztoc.com/x/fb04595d19b40e97",
+"urlToImage": "https://c.biztoc.com/p/fb04595d19b40e97/og.webp",
+"publishedAt": "2023-03-31T01:22:06Z",
+
+"content": "Dow Jones futures rose slightly overnight, along with S&amp;P 500 futures and Nasdaq futures, with attention turning to the Federal Reserve's favorite inflation report, the PCE price index.Aehr Test … [+302 chars]"
+}
+ 
+]
+}
