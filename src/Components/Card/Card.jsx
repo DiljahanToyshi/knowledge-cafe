@@ -10,8 +10,7 @@ console.log(title)
     let total = 0;
 for (const vlog of card){
     total = total + parseInt(vlog.readingtime);
-    // console.log(vlog.title);
-    // console.log(card[0].title)
+    
 };
 
   return (
