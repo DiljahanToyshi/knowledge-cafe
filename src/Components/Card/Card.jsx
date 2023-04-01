@@ -4,8 +4,9 @@ const Card = (props ) => {
 
     const {card} =props;
  
-// const [cardTitle,setCardTitle] = useState([])
-
+const [cardTitle,setCardTitle] = useState([])
+const title = card.map((t) => t.title)
+console.log(title)
     let total = 0;
 for (const vlog of card){
     total = total + parseInt(vlog.readingtime);
@@ -25,7 +26,11 @@ for (const vlog of card){
         <p className="font-semibold text-2xl text-center">
           Bookmarked Blogs :{card.length}
         </p>
-        <p className="m-5">{}</p>
+        <div className="p-3">
+          {title.map((titles) => (
+           <h4>{titles}</h4>
+          ))}
+        </div>
         <br />
       </div>
     </div>

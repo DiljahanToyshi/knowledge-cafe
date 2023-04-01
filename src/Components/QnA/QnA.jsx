@@ -4,7 +4,7 @@ const QnA = () => {
     return (
       <div className="bg-violet-200 mx-auto p-3 m-5 ">
         <h2 className="font-medium">
-          What is the difference between props and state?
+          1.What is the difference between props and state?
         </h2>
         <p>
           props are passed via component properties, they're not reactive. State
