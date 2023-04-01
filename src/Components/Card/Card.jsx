@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import Bookmarked from "../Bookmarked/Bookmarked";
 
 const Card = (props ) => {
+
     const {card} =props;
-    console.log(card);
-  
+
+
 
     let total = 0;
 for (const vlog of card){
@@ -19,11 +21,13 @@ for (const vlog of card){
         </p>
       </div>
 
-      <div>
-        <p className="font-semibold text-2xl text-center bg-zinc-200 mt-5">
+      <div className="  bg-zinc-200 mt-5">
+        <p className="font-semibold text-2xl text-center">
           Bookmarked Blogs :{card.length}
         </p>
-        <p>{card.length}</p>
+        <p className="m-5"></p>
+        <br />
+        <Bookmarked></Bookmarked>
       </div>
     </div>
   );
