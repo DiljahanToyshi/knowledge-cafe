@@ -21,6 +21,7 @@ const Vlog = () => {
   const handleAddToVLog = (vlog) => {
     const newCard = [...card, vlog];
     setCard(newCard);
+    console.log(newCard)
     const previousBookmark = JSON.parse(localStorage.getItem("bookmark"));
     let bookmark =[];
     if(previousBookmark){
@@ -43,7 +44,7 @@ const Vlog = () => {
     }
   };
   return (
-    <div className="grid grid-cols-3 gap-4">
+    <div className="lg:grid grid-cols-3 gap-4">
       <div className="col-span-2 ">
         {vlogs.map((vlog) => (
           <SingleVLog
@@ -55,8 +56,7 @@ const Vlog = () => {
       </div>
 
       <div>
-        <h2>cart</h2>
-        <Card  card={card}></Card>
+        <Card card={card}></Card>
       </div>
     </div>
   );

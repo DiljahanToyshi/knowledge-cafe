@@ -7,8 +7,8 @@ const Header = () => {
   
   return (
     <div>
-      <div className="flex justify-between container mx-auto header mb-4">
-        <p className="font-semibold text-2xl">Knowledge cafe</p>
+      <div className="flex lg:justify-between container mx-auto header mb-4">
+        <p className="font-semibold text-2xl ">Knowledge cafe</p>
         <img className="  h-14 " src={img} alt="" />
       </div>
       <hr />
